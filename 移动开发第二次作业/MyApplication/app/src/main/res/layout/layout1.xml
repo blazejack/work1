@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#551d1d1d"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="one,one"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_edge"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="one,two"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_edge"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="one,three"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_edge"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="one,four"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_edge"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,one"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_edge"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,two"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_edge"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,three"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_edge"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two,four"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_edge"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,one"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_edge"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,two"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_edge"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,three"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_edge"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three,four"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_edge"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,one"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_edge"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,two"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_edge"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,three"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_edge"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="four,four"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_edge"
+            />
+
+    </LinearLayout>
+</LinearLayout>

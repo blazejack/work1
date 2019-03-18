@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="horizontal">
+
+    <Button
+
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:textColor="#000000"
+        android:text="Red"
+        android:layout_marginLeft="3dp"
+        />
+
+    <Button
+
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="152dp"
+        android:background="#ff8247"
+        android:textColor="#000000"
+        android:text="orange" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="302dp"
+        android:background="#fff000"
+        android:textColor="#000000"
+        android:text="yellow" />
+
+    <Button
+
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="100dp"
+        android:background="#b3ee3a"
+        android:textColor="#000000"
+        android:text="green" />
+
+    <Button
+
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="100dp"
+        android:background="#6495ED"
+        android:textColor="#000000"
+        android:text="blue" />
+
+    <Button
+
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="100dp"
+        android:background="#4b0082"
+        android:textColor="#000000"
+        android:text="indigo" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="200dp"
+        android:background="#BA55D3"
+        android:textColor="#000000"
+        android:text="violef" />
+</RelativeLayout>
