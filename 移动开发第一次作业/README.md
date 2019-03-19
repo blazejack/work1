@@ -19,7 +19,7 @@
 
 3.返回到app中
 
-![Image text](https://github.com/blazejack/work1/raw/master/photo/one/return.jpg)
+![Image text](https://github.com/blazejack/work1/raw/master/photo/one/return.png)
 
 可以看到调用了 onRestart（），onStart（），onResume（）三个函数
 
