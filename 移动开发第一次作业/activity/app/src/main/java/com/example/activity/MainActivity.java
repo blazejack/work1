@@ -1,10 +1,10 @@
-package com.example.myhello;
+package com.example.activity;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-
 
 public class MainActivity extends ActionBarActivity {
 
@@ -12,7 +12,41 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.i("main","call onCreate()");
     }
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.i("main","call onStart()");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.i("main","call onResume()");
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.i("main","call onPause()");
+    }
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.i("main","call onStop()");
+    }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.i("main","call onDestroy()");
+    }
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.i("main","call onRestart()");
+    }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -32,7 +66,6 @@ public class MainActivity extends ActionBarActivity {
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 }
