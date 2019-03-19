@@ -13,7 +13,7 @@
 
 ![Image text](https://github.com/blazejack/work1/raw/master/photo/one/switch.jpg)
 
-因为当前活动是是逐渐被完全覆盖，所以依次调用了onPause（），onStop（）两个函数
+因为当前活动是逐渐被完全覆盖，所以依次调用了onPause（），onStop（）两个函数
 
 ![Image text](https://github.com/blazejack/work1/raw/master/photo/one/switch1.png)
 
@@ -21,7 +21,7 @@
 
 ![Image text](https://github.com/blazejack/work1/raw/master/photo/one/return.png)
 
-可以看到调用了 onRestart（），onStart（），onResume（）三个函数
+因为要重新加载程序，所以调用了 onRestart（），onStart（），onResume（）三个函数
 
 ![Image text](https://github.com/blazejack/work1/raw/master/photo/one/return1.png)
 
