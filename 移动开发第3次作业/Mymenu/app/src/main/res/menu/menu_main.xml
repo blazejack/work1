@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:icon="@mipmap/ic_launcher"
+        android:title="字体大小"
+        >
+    <menu>
+        <item android:id="@+id/f1"  android:title="小"/>
+        <item android:id="@+id/f2"  android:title="中"/>
+        <item android:id="@+id/f3"  android:title="大"/>
+    </menu>
+    </item>
+
+    <item
+        android:id="@+id/item2"
+        android:icon="@mipmap/ic_launcher"
+        android:title="颜色修改"
+        >
+        <menu>
+            <item android:id="@+id/red"  android:title="红色"/>
+            <item android:id="@+id/blue"  android:title="蓝色"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item3"
+
+        android:title="普通菜单"/>
+
+
+
+</menu>
+
