@@ -31,7 +31,7 @@
 
 ![Image text](https://github.com/blazejack/work1/raw/master/photo/six/2.1.jpg)
 
-4.创建成功，右下角生成时间
+4.创建成功，便签底部生成时间
 
 ![Image text](https://github.com/blazejack/work1/raw/master/photo/six/2.2.jpg)
 
