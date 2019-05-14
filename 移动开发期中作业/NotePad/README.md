@@ -5,7 +5,7 @@
   
 ![Image text](https://github.com/blazejack/work1/raw/master/photo/six/1.0.jpg)
 
-2.点击右下角按钮新建便签
+2.点击右下角+号按钮新建便签
 
 ![Image text](https://github.com/blazejack/work1/raw/master/photo/six/2.0.jpg)
 
@@ -17,7 +17,7 @@
 
 ![Image text](https://github.com/blazejack/work1/raw/master/photo/six/2.2.jpg)
 
-5.再次点击便签可以进行删除或者重新编辑
+5.再次点击便签可以进行删除或者重新编辑并保存
 
 ![Image text](https://github.com/blazejack/work1/raw/master/photo/six/2.3.jpg)
 
